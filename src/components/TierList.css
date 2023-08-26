@@ -22,6 +22,11 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
+.blacklist-note {
+  font-style: italic;
+  color: #777;
+}
+
 .tom-spark-container {
   width: 60%;
   border: 2px solid #333;
@@ -144,7 +149,38 @@ body {
   .vpn-item:hover {
     background-color: #444; /* Darker background color on hover */
   }
+
+  .updates-container {
+    background-color: #1f1f1f; /* Dark background color */
+    border: 2px solid #333; /* Dark border color */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 60px;
+  }
   
+  .updates-container h3 {
+    font-size: 1.3em;
+    color: #fff; /* White text color */
+    margin-bottom: 10px;
+  }
+  
+  .updates-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .updates-container li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #ccc; /* Light text color */
+  }
+  
+  .updates-container ul ul {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
 
   @keyframes background-animation {
     0% {

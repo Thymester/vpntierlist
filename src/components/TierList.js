@@ -9,7 +9,7 @@ const TierList = () => {
     B: ['Private Internet Access (68.5)', 'VyprVPN (62.5)', 'ExpressVPN (61)'],
     C: ['IvacyVPN (59)', 'CactusVPN (56.5)', 'Mullvad (56)', 'PureVPN (56)', 'Cyberghost (55)', 'AdGuard (55)', 'AirVPN (51.5)', 'AzireVPN (50)'],
     D: ['IPVanish (49)', 'oVPN (46)', 'VPN Unlimited (44)', 'Zenmate (47.5)', 'HideIPVPN (43.5)', 'HolaVPN (45.5)', 'BraveVPN (32)', 'AvastVPN (24)'],
-    Blacklist: ['Windscribe (62)', 'iVPN (40)']
+    Blacklist: ['Windscribe (62)', 'iVPN (40)'],
   };
 
   const vpnLinks = {
@@ -92,6 +92,33 @@ const TierList = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="updates-container">
+        <h3>VPN Tier List 6.0 Updates - 8/2023:</h3>
+        <ul>
+          <li>+Added requirement for 5+ Netflix regions supported</li>
+          <li>+Added requirement for automatic compatibility with Netflix / other services</li>
+          <li>+Changed Review process to include half points, 0 points, and revision to “Company’s response to Criticism”, based on how VPNs respond to negative reviews</li>
+          <li>+Added multiple new features that are becoming popular in VPNs that increase the value proposition such as these below:</li>
+          <ul>
+            <li>VPN routers</li>
+            <li>Cloud apps</li>
+            <li>Password managers</li>
+            <li>Encrypted Storage</li>
+            <li>Encrypted Email</li>
+            <li>Antivirus</li>
+            <li>Data breach alerts</li>
+            <li>Data broker removal tools</li>
+            <li>Email Alias features</li>
+          </ul>
+        </ul>
+        
+        <h3>VPN Tier List 5.0 Updates - 6/2023:</h3>
+        <ul>
+          <li>+Added requirement for v2ray support (an important proxy that works great in censored countries)</li>
+          <li>+Added requirement for live chat since more VPNs are supporting it again</li>
+          <li>+Added requirements for PC GUI since users find ugly or unwieldy apps annoying</li>
+        </ul>
       </div>
     </div>
   );
