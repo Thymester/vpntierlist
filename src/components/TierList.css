@@ -13,6 +13,52 @@ body {
   color: white;
 }
 
+.tom-spark-container {
+  border: 2px solid #333;
+  background-color: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.tom-spark-container {
+  width: 60%;
+  border: 2px solid #333;
+  background-color: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.tom-spark-container h3 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center; /* Center-align the heading */
+}
+
+.tom-spark-container p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #ccc;
+  line-height: 1.5;
+  text-align: center; /* Center-align the text */
+}
+
+.tom-spark-container p a {
+  color: #66BFFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.tom-spark-container p a:hover {
+  color: #7AA4FF;
+  text-decoration: underline;
+}
+
+
 .discord-logo {
   width: 150px; /* Adjust the width as needed */
   height: auto;

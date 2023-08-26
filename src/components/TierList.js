@@ -41,12 +41,12 @@ const TierList = () => {
 
   return (
     <div className="tier-list">
-        <div className="intro-text">
         <img
           src="https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/88fe6ed1-78c3-4d62-91e6-88498fb419f5/ArmyHat_make_this_image_into_a_discord_logo_but_more_hacker_the_93d0d4f1-aa2e-4a10-a289-36e31e7a1fdc.png?format=2500w 2500w"
           alt="Discord Logo"
           className="discord-logo"
         />
+        <div className="tom-spark-container">
         <h3 className="main-heading">
           Why is Tom Spark the best VPN resource?
         </h3>
@@ -58,9 +58,8 @@ const TierList = () => {
           8+ Years Reviewing VPNs: ✅<br />
           (Affiliate Links on this site directly support me, but are completely optional)
         </p>
-        <p>—————————————————————————————</p>
       </div>
-      <div className="intro-text">
+      <div className="tom-spark-container">
       <h3 className='main-heading'>Tom’s Favorite Products:
       </h3>
           <p>
@@ -70,15 +69,13 @@ const TierList = () => {
           <br />
           Want a smart display to show BTC prices or other cool info? Watch this review.
         </p>
-        <p>—————————————————————————————</p>
       </div>
-      <div className="intro-text">
+      <div className="tom-spark-container">
         <h3>VPN TIER LIST 2024 6.0</h3>
         <p>The tier list reflects latest scores as scored <a href="https://docs.google.com/spreadsheets/d/1BvDJng1YUUQPX6QvbGwEi1Gr-CsnWnqpqaNHy91Og9w/edit" target="_blank" rel="noopener noreferrer">here</a>.</p>
         <p>
           The numbers usually include a link to a video review, but the tier list changes enough it’s impossible to keep all reviews up to date (since I am a one man army). This list will update the scores with videos as they come out.
         </p>
-        <p>—————————————————————————————</p>
       </div>
       <div className="tiers-container">
         {tiers.map((tier, index) => (
