@@ -7,7 +7,7 @@ import About from './components/About';
 import './App.css';
 
 const App = () => {
-  const [showFooter, setShowFooter] = useState(true);
+  const [setShowFooter] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
