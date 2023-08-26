@@ -31,8 +31,8 @@ const Header = () => {
         <div className="header-dropdown">
           Quizzes
           <div className="header-dropdown-content">
-            <Link to="https://www.vpntierlist.com/are-you-anonymous-quiz">Are you anonymous quiz?</Link>
-            <Link to="https://www.vpntierlist.com/vpn-quiz">VPN quiz?</Link>
+            <Link to="https://www.vpntierlist.com/are-you-anonymous-quiz" target="_blank" rel="noopener noreferrer">Are you anonymous quiz?</Link>
+            <Link to="https://www.vpntierlist.com/vpn-quiz" target="_blank" rel="noopener noreferrer">VPN quiz?</Link>
           </div>
         </div>
       </div>
