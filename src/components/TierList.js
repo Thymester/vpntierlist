@@ -63,9 +63,9 @@ const TierList = () => {
       <h3 className='main-heading'>Tom’s Favorite Products:
       </h3>
           <p>
-          Best Anti-Doxx Tool: <a href="https://incogni.com/" target="_blank" rel="noopener noreferrer">Incogni</a> code "tomspark" extra 10% off!
+          Best Anti-Doxx Tool: Incogni code "tomspark" extra 10% off!
           <br />
-          Get Cheaper Streaming services: <a href="https://www.gamsgo.com/#/" target="_blank" rel="noopener noreferrer">Gamsgo</a> code "spark" 10% off!
+          Get Cheaper Streaming services: Gamsgo code "spark" 10% off!
           <br />
           Want a smart display to show BTC prices or other cool info? Watch this review.
         </p>
@@ -92,6 +92,12 @@ const TierList = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="blacklist-container">
+      <h3>What does Blacklist mean?</h3>
+      <p>These VPNs are separated and penalized with a point reduction since they have harassed or spread misinformation about the tier list. <br /> <br />
+         Any VPN listed here can appeal to be re-instated by contacting me on Twitter or Discord.
+      </p>
       </div>
       <div className="updates-container">
         <h3>VPN Tier List 6.0 Updates - 8/2023:</h3>

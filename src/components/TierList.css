@@ -13,6 +13,17 @@ body {
   color: white;
 }
 
+.blacklist-container {
+  width: 60%;
+  text-align: center;
+  border: 2px solid #333;
+  background-color: #1f1f1f;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
 .tom-spark-container {
   border: 2px solid #333;
   background-color: #1f1f1f;

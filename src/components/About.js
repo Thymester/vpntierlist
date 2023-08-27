@@ -4,6 +4,11 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-container">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=100w 100w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=300w 300w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=500w 500w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=750w 750w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/5e7ca78f-7ce8-4bab-ba90-41aeff34843d/IMG_4003.JPG?format=2500w 2500w"
+          alt="Discord Logo"
+          className="discord-logo"
+        />
       <h2>WHO IS TOM?</h2>
       <p>
         I’m a computer geek who loves gadgets, video games, fantasy books, and exercise. In my spare time I love to tinker,

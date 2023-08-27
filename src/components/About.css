@@ -14,7 +14,7 @@
   
   .about-container h2 {
     font-size: 32px;
-    max-width: 50%;
+    max-width: 70%;
     margin-top: 20px;
     color: #ffffff;
   }
@@ -23,7 +23,7 @@
     font-size: 18px;
     margin-top: 10px;
     line-height: 1.5;
-    max-width: 31%;
+    max-width: 50%;
     text-align: center;
     color: #dddddd;
   }
