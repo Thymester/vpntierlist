@@ -67,7 +67,7 @@ const TierList = () => {
           <br />
           Get Cheaper Streaming services: <a href="https://supporttomspark.com/gamsgo" target="_blank" rel="noopener noreferrer">Gamsgo</a> code "spark" 10% off!
           <br />
-          Want a smart display to show BTC prices or other cool info? Watch this review.
+          Want a smart display to show BTC prices or other cool info? Watch <a href="https://www.youtube.com/watch?pp=ygUQdGlkYnl0IHRvbSBzcGFyaw%3D%3D&t=57s&v=XEPqLqHweDA" target="_blank" rel="noopener noreferrer">this review</a>.
         </p>
       </div>
       <div className="tom-spark-container">
