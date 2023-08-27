@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    max-height: 100%;
     padding: 20px;
     background-color: #121212;
     color: #fff;
@@ -24,4 +24,4 @@
     margin-top: 10px;
     line-height: 1.5;
     text-align: center;
-  }  
+  } 
