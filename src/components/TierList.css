@@ -64,7 +64,7 @@ body {
   font-size: 1.5em;
   color: #fff;
   margin-bottom: 10px;
-  text-align: center; /* Center-align the heading */
+  text-align: center;
 }
 
 .tom-spark-container p {
@@ -72,7 +72,7 @@ body {
   font-size: 1.1em;
   color: #ccc;
   line-height: 1.5;
-  text-align: center; /* Center-align the text */
+  text-align: center;
 }
 
 .tom-spark-container p a {
@@ -88,21 +88,23 @@ body {
 
 
 .discord-logo {
-  width: 150px; /* Adjust the width as needed */
+  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
 
 .tier-list {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   min-height: 100vh;
-  background: linear-gradient(45deg, #121212, #292929, #1f1f1f, #292929); /* Gradient background */
-  background-size: 400% 400%; /* Background size for animation */
-  color: #fff; /* White text color */
-  animation: background-animation 15s linear infinite; /* Background animation */
+  background: linear-gradient(45deg, #121212, #292929, #1f1f1f, #292929);
+  background-size: 400% 400%;
+  color: #fff;
+  animation: background-animation 15s linear infinite;
 }
 
 .intro-text {
@@ -116,7 +118,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
   }
   
   .tier {
@@ -125,9 +127,9 @@ body {
     align-items: center;
     padding: 20px;
     margin: 20px;
-    border: 1px solid #333; /* Dark border color */
-    background-color: #1f1f1f; /* Dark tier background color */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Dark box shadow */
+    border: 1px solid #333;
+    background-color: #1f1f1f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
@@ -137,13 +139,13 @@ body {
   
   .tier:hover {
     transform: translateY(-1px);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Dark box shadow on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
   }
   
   .tier h2 {
     margin: 0;
     font-size: 24px;
-    color: #fff; /* White text color */
+    color: #fff;
   }
   
   .items {
@@ -156,26 +158,26 @@ body {
   
   .vpn-item {
     padding: 10px;
-    border: 1px solid #333; /* Dark border color */
-    background-color: #241b1b; /* Dark item background color */
+    border: 1px solid #333;
+    background-color: #241b1b;
     margin: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
     font-size: 16px;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
     transition: background-color 0.3s;
     height: 25px;
   }
   
   .vpn-item:hover {
-    background-color: #444; /* Darker background color on hover */
+    background-color: #444;
   }
 
   .updates-container {
-    background-color: #1f1f1f; /* Dark background color */
-    border: 2px solid #333; /* Dark border color */
+    background-color: #1f1f1f;
+    border: 2px solid #333;
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -185,7 +187,7 @@ body {
   
   .updates-container h3 {
     font-size: 1.3em;
-    color: #fff; /* White text color */
+    color: #fff;
     margin-bottom: 10px;
   }
   
@@ -197,7 +199,7 @@ body {
   .updates-container li {
     font-size: 1.1em;
     margin-bottom: 8px;
-    color: #ccc; /* Light text color */
+    color: #ccc;
   }
   
   .updates-container ul ul {
