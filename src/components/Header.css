@@ -14,8 +14,8 @@
   margin-bottom: 5px;
 }
 
-a:visited { 
-  text-decoration: none; 
+a { 
+  text-decoration: none;
   color: white; 
  }
 
