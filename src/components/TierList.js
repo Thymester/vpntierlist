@@ -70,6 +70,7 @@ const TierList = () => {
           Want a smart display to show BTC prices or other cool info? Watch <a href="https://www.youtube.com/watch?pp=ygUQdGlkYnl0IHRvbSBzcGFyaw%3D%3D&t=57s&v=XEPqLqHweDA" target="_blank" rel="noopener noreferrer">this review</a>.
         </p>
       </div>
+      <div className="tierlist-container">
       <div className="tom-spark-container">
         <h3>VPN TIER LIST 2024 6.0</h3>
         <p>The tier list reflects latest scores as scored <a href="https://docs.google.com/spreadsheets/d/1BvDJng1YUUQPX6QvbGwEi1Gr-CsnWnqpqaNHy91Og9w/edit" target="_blank" rel="noopener noreferrer">here</a>.</p>
@@ -98,6 +99,7 @@ const TierList = () => {
       <p>These VPNs are separated and penalized with a point reduction since they have harassed or spread misinformation about the tier list. <br /> <br />
          Any VPN listed here can appeal to be re-instated by contacting me on Twitter or Discord.
       </p>
+      </div>
       </div>
       <div className="updates-container">
         <h3>VPN Tier List 6.0 Updates - 8/2023:</h3>

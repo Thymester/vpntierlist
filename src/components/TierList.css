@@ -13,15 +13,27 @@ body {
   color: white;
 }
 
+.tierlist-container {
+  border: 2px solid #333;
+  background-color: #1f1f1f;
+  max-width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .blacklist-container {
-  width: 60%;
+  width: 55%;
   text-align: center;
   border: 2px solid #333;
   background-color: #1f1f1f;
-  padding: 20px;
   margin-top: 30px;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .tom-spark-container {
@@ -165,10 +177,10 @@ body {
     background-color: #1f1f1f; /* Dark background color */
     border: 2px solid #333; /* Dark border color */
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-    margin-bottom: 60px;
   }
   
   .updates-container h3 {

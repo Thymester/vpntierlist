@@ -11,7 +11,14 @@ const Header = () => {
       <div className="header-links">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/privacy-policy">Privacy Policy</Link>
+        <div className="header-dropdown">
+          Policies
+          <div className="header-dropdown-content">
+            <a href="/privacy-policy">
+              Privacy Policy
+            </a>
+          </div>
+        </div>
         <div className="header-dropdown">
           Socials
           <div className="header-dropdown-content">

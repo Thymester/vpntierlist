@@ -1,10 +1,30 @@
 body {
-    background-color: #181818;
+    background-color: #1f1f1f;
+}
+
+.privacy-policy-title {
+    font-size: 30px;
+    background-color: #1f1f1f;
+    color: #fff;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.privacy-policy-title-container {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border: 2px solid #333;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 75%;
+  padding: 20px;
 }
 
 .privacy-policy {
     display: flex;
-    border: #000000;
+    border: 2px solid #333;
     border-radius: 8px;
     margin: auto;
     margin-top: 30px;
@@ -15,7 +35,7 @@ body {
     align-items: center;
     max-width: 75%;
     padding: 20px;
-    background-color: #121212;
+    background-color: #1f1f1f;
     color: #fff;
   }
   
