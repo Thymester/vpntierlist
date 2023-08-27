@@ -63,9 +63,9 @@ const TierList = () => {
       <h3 className='main-heading'>Tom’s Favorite Products:
       </h3>
           <p>
-          Best Anti-Doxx Tool: <a href="https://incogni.com/" target="_blank" rel="noopener noreference">Incogni</a> code "tomspark" extra 10% off!
+          Best Anti-Doxx Tool: <a href="https://incogni.com/" target="_blank" rel="noopener noreferrer">Incogni</a> code "tomspark" extra 10% off!
           <br />
-          Get Cheaper Streaming services: <a href="https://www.gamsgo.com/#/" target="_blank" rel="noopener noreference">Gamsgo</a> code "spark" 10% off!
+          Get Cheaper Streaming services: <a href="https://www.gamsgo.com/#/" target="_blank" rel="noopener noreferrer">Gamsgo</a> code "spark" 10% off!
           <br />
           Want a smart display to show BTC prices or other cool info? Watch this review.
         </p>
