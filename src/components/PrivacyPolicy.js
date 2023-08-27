@@ -10,8 +10,8 @@ const PrivacyPolicy = () => {
                 We use your Personal Information only for providing and improving the Site. By using the Site, you
                 agree to the collection and use of information in accordance with this policy.</p>
             <h3>Information Collection And Use</h3>
-            <p>Log Data <br />
-                Like many site operators, we collect information that your browser sends whenever you visit our site. This information is only used for analytic awareness.
+            <p><b><i>Log Data</i></b></p> <br />
+                <p>Like many site operators, we collect information that your browser sends whenever you visit our site. This information is only used for analytic awareness.
                 This Log Data may include information such as your computer's Internet Protocol ("IP") address,
                 browser type, browser version, the pages of our Site that you visit, the time and date of your visit,
                 the time spent on those pages and other statistics.</p>
