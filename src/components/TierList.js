@@ -46,6 +46,7 @@ const TierList = () => {
           alt="Discord Logo"
           className="discord-logo"
         />
+        <div className="top-container">
         <div className="tom-spark-container">
         <h3 className="main-heading">
           Why is Tom Spark the best VPN resource?
@@ -69,6 +70,7 @@ const TierList = () => {
           <br />
           Want a smart display to show BTC prices or other cool info? Watch <a href="https://www.youtube.com/watch?pp=ygUQdGlkYnl0IHRvbSBzcGFyaw%3D%3D&t=57s&v=XEPqLqHweDA" target="_blank" rel="noopener noreferrer">this review</a>.
         </p>
+      </div>
       </div>
       <div className="tierlist-container">
       <div className="tom-spark-container">
