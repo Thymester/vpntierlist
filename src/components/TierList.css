@@ -64,6 +64,14 @@ body {
   border-radius: 8px;
 }
 
+.tom-spark-container :hover {
+  background-color: #444;
+}
+
+.tom-spark-container h3:hover {
+  text-decoration: underline;
+}
+
 .tom-spark-container h3 {
   font-size: 1.5em;
   color: #fff;
