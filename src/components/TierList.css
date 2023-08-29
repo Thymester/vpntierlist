@@ -51,6 +51,10 @@ body {
   border-radius: 8px;
 }
 
+.blacklist-container :hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
 .blacklist-note {
   font-style: italic;
   color: #777;
