@@ -46,18 +46,25 @@ const TierList = () => {
           alt="Discord Logo"
           className="discord-logo"
         />
+        <img 
+          src="https://images.squarespace-cdn.com/content/v1/624ca49488b09931099fa0be/d005807c-9572-4b1e-b49d-2fc018b4d4ee/chrome_N7rlpgXkbO.png?format=2500w"
+          alt="Tom Comparison Chart"
+          className="tom-comp-chart"
+          width="800"
+          height="600"
+        />
         <div className="top-container">
         <div className="tom-spark-container">
         <h3 className="main-heading">
           Why is Tom Spark the best VPN resource?
         </h3>
         <p>
-          No sponsored advertisements: ✅<br />
-          No Youtube ads on ANY videos: ✅<br />
-          Transparent + community driven rating system: ✅<br />
-          Responsive on Discord: ✅<br />
-          8+ Years Reviewing VPNs: ✅<br />
-          (Affiliate Links on this site directly support me, but are completely optional)
+        -We don’t believe in invasive advertisements, so we don’t use any YouTube ads for monetization. <br></br><br></br>
+        -We don’t believe in asking for donations for low quality content. All content is 100% free—that means no paid videos and no Patreon. <br></br><br></br>
+        -You don’t have to pay for memberships. All channel members get free emojis and roles in the discord. <br></br><br></br>
+        -We don’t use expensive third party merch services that source products from China. <br></br><br></br>
+        -We don’t accept paid sponsors that could jeopardize our review process. <br></br><br></br>
+        -Only high quality products that met our strict rating criteria are monetized through optional affiliate links. <br></br><br></br>
         </p>
       </div>
       <div className="tom-spark-container">
