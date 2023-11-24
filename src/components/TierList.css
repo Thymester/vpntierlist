@@ -62,6 +62,10 @@ body {
   border-radius: 8px;
 }
 
+.blacklist-container:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
 .blacklist-note {
   font-style: italic;
   color: #777;
@@ -138,6 +142,7 @@ body {
 }
   
   .tiers-container {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -156,7 +161,7 @@ body {
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
-    height: 475px;
+    height: 585px;
     width: 200px;
   }
   

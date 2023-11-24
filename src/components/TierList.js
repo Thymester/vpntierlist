@@ -7,9 +7,9 @@ const TierList = () => {
   const vpnData = {
     A: ['TorGuard (82.25)', 'SurfShark (77)', 'NordVPN (76.25)', 'Hide.Me (75)', 'ProtonVPN (72)'],
     B: ['Private Internet Access (68.5)', 'VyprVPN (62.5)', 'ExpressVPN (61)'],
-    C: ['IvacyVPN (59)', 'CactusVPN (56.5)', 'Mullvad (56)', 'PureVPN (56)', 'Cyberghost (55)', 'AdGuard (55)', 'AirVPN (51.5)', 'AzireVPN (50)'],
-    D: ['IPVanish (49)', 'oVPN (46)', 'VPN Unlimited (44)', 'Zenmate (47.5)', 'HideIPVPN (43.5)', 'HolaVPN (45.5)', 'BraveVPN (32)', 'AvastVPN (24)'],
-    Blacklist: ['Windscribe (62)', 'iVPN (40)'],
+    C: ['IvacyVPN (59)', 'PrivateVPN (58.5)', 'CactusVPN (56.5)', 'Mullvad (56)', 'PureVPN (56)', 'AtlasVPN (55)', 'Cyberghost (55)', 'AdGuard (55)', 'AirVPN (51.5)', 'AzireVPN (50)'],
+    D: ['IPVanish (49)', 'oVPN (46)', 'VPN Unlimited (44)', 'Zenmate (47.5)', 'HolaVPN (45.5)', 'HideIPVPN (43.5)', 'BraveVPN (32)', 'AvastVPN (24)'],
+    Blacklist: ['Windscribe (62)'],
   };
 
   const vpnLinks = {
