@@ -9,7 +9,7 @@ const TierList = () => {
     B: ['VyprVPN (62.5)', 'ExpressVPN (61)', 'PersonalVPN (61)],
     C: ['IvacyVPN (60)', 'PrivateVPN (59.5)', 'CactusVPN (57.5)', 'Mullvad (57)', 'PureVPN (57)', 'AtlasVPN (56)', 'Cyberghost (56)', 'AdGuard (56)', 'AirVPN (52.5)', 'AzireVPN (51)'],
     D: ['IPVanish (50)', 'HideIPVPN (49.5)', 'Zenmate (48.5)', 'oVPN (48.5)', 'VPN Unlimited (45)', 'HolaVPN (46.5)', 'BraveVPN (33)', 'AvastVPN (25)'],
-    Blacklist: ['Windscribe (62)'],
+    Blacklist: ['Windscribe (62)', 'IVPN (41)'],
   };
 
   const vpnLinks = {
